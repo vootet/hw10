@@ -1,0 +1,10 @@
+.animate {
+  animation-name: myAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes myAnimation {
+  from { stroke: green; fill: lightblue; }
+  to { stroke: blue; fill: yellow; }
+}
